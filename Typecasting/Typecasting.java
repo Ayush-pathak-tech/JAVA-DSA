@@ -1,3 +1,4 @@
+/* 
 package Typecasting;
 
 
@@ -16,12 +17,12 @@ public class Typecasting{
             byte b=(byte)(a);
             System.out.println(b);
 
-            byte a1=40;
-            byte b1=50;
-            byte c=100;
-            int d=a*b/c;
+            // byte a1=40;
+            // byte b1=50;
+            // byte c=100;
+            // int d=a*b/c;
 
-            System.out.println(d);
+            // System.out.println(d);
 
             //////////////////////////////////////////
              int num = 100;
@@ -29,7 +30,7 @@ public class Typecasting{
         System.out.println("Widened: " + result); // Output: 100.0
         //////////////////////////////////////////////
         double value = 45.67;
-        int result1 = (int) value; // Explicit casting
+        // int result1 = (int) value; // Explicit casting
         System.out.println("Narrowed: " + result); // Output: 45 (decimal lost)
 
       //  Widening (Safe)   —> byte → short → int → long → float → double      Widening: ✅ safe, no data loss
@@ -82,3 +83,5 @@ public class Typecasting{
         }
     }
 }
+
+*/
