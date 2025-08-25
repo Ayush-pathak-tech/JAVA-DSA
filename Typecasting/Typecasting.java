@@ -33,8 +33,8 @@ public class Typecasting{
         // int result1 = (int) value; // Explicit casting
         System.out.println("Narrowed: " + result); // Output: 45 (decimal lost)
 
-      //  Widening (Safe)   —> byte → short → int → long → float → double      Widening: ✅ safe, no data loss
-      // Narrowing (Risky) —> double → float → long → int → short → byte      Narrowing: ⚠️ may lose data (e.g., decimals, overflow)
+      //  Widening (Safe)   —> byte → short → int → long → float → double      Widening: ✅ safe, no data loss (here we have enough space like int(4byte) to float(4byte))
+      // Narrowing (Risky)(Lossy) —> double → float → long → int → short → byte      Narrowing: ⚠️ may lose data (e.g., decimals, overflow)
       
 
       //          TYPE PROMOTION 

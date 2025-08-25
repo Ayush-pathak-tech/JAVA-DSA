@@ -1,5 +1,4 @@
-package Typecasting;
-public class Typecasting01 {
+  public class Typecasting01 {
     public static void main(String[] args) {
         byte b =42;
         char c='a';

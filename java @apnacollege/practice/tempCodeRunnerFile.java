@@ -1,1 +1,0 @@
-name1.replace(0,name1.length(),"Piyush pathak"); // replace string value 
