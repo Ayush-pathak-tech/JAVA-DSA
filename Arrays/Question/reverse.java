@@ -1,10 +1,5 @@
 
 import java.util.Arrays;
-
-
-
-
-
 public class reverse {
     public static void  swap(int[] arr, int index1,int index2){
         int temp=arr[index1];

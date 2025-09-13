@@ -9,7 +9,6 @@ public class maxvalue {
             if(arr[i]>max){
                 max=arr[i];
             }
-
         }
         return max;
     }
